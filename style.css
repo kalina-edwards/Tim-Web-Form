@@ -1,0 +1,101 @@
+body{
+	background-color: #551a8b;
+}
+
+form {
+	background-color: white;
+	max-width: 100%;
+	width:  550px;
+	margin: 100px auto;
+}
+
+fieldset {
+	border: none;
+}
+
+legend {
+	font-size: 2em;
+	font-weight: bold;
+	color: #551a8b;
+	padding-bottom: 20px;
+	padding-top: 35px;
+}	
+
+input,
+select {
+	display: block;
+	height: 35px;
+}
+
+input[placeholder],
+select {
+	font-style: italic;
+	padding: 0 5px;
+	font-size: 12px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+select {
+	width: 95%;
+	margin-bottom: 10px;
+	background-color: #f2f2f2;
+	border: 0;
+	outline: 1px solid lightgrey;
+}
+
+select[name="question"] {
+	color: rgba(128,128,128,.7);
+	width: 97%;
+}
+
+button {
+	background-color: #289bd5;
+	color: white;
+	border: 0;
+	font-size: 1.75em;
+	height: 55px;
+	float: right;
+	font-weight: bold;
+	font-family: montserratmod-bold,Helvetica,Arial;
+}
+
+button img {
+	margin-right: 10px;
+	display: inline-block;
+	width: 25px;
+}
+
+/*Media Query*/
+
+@media (min-width: 768px) {
+
+	form {
+		width: 720px;
+		margin: 200px auto;
+	}
+
+	span {
+		display: inline;
+		width: 47.5%;
+/*		overflow: hidden;
+*/	}
+
+	#top {
+		float: left;
+	}
+
+	#bottom {
+		float: right;
+	}
+
+	#break {
+		display: none;
+	}
+
+	select[name="question"] {
+		width: 98%;
+	}
+
+}

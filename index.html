@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<form action="index.html" method="post">
+	<fieldset>
+		<legend>Get Started Here: </legend>
+
+		<!-- Email Address -->
+		<!-- New Span -->
+		<span id="top">
+			<input type="email" id="mail" name="usermail" placeholder="Email Address"></input>
+			<input type="email" id="mail" name="usermail" placeholder="Confirm Email Address"></input>
+			<!-- UserName and Password -->
+			<br>
+			<input type="text" id="username" placeholder="Username"></input>
+			
+			<input type="password" id="pass_word" placeholder="Password"></input>
+			<input type="password" id="pass_word" placeholder="Confirm Password"></input>
+		</span>
+		
+		<!-- First, Middle, Last Name -->
+		<!-- New Span -->
+		<span id="bottom">
+		<br id="break">
+			<input type="text" id="first_name" placeholder="First Name"></input>
+			<input type="text" id="mid_name" placeholder="Middle Initial"></input>
+			<input type="text" id="last_name" placeholder="Last Name"></input>
+
+			<!-- Select Security Question & Answer -->
+			<br>
+			<select name="question">
+				<option value="">Security Question</option>
+				<option value="">Mother's Maiden Name?</option>
+				<option value="">What was your first car?</option>
+				<option value="">Your pet's name?</option>
+				<option value="">City of Origin?</option>
+			</select>
+			<input type="text" id="answer" placeholder="Answer"></input>
+		</span>
+	</fieldset>
+
+	<!-- Register Button -->
+	<br>
+	<fieldset>
+		<button type="submit"><img src="padlock.png">REGISTER</button>
+	</fieldset>
+</form>
+</body>
+</html>
