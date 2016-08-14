@@ -7,11 +7,11 @@ form {
 	max-width: 100%;
 	width:  600px;
 	margin: 100px auto;
-
 }
 
 fieldset {
 	border: none;
+	margin: 15px;
 }
 
 legend {
@@ -75,6 +75,10 @@ button img {
 	form {
 		width: 720px;
 		margin: 200px auto;
+	}
+
+	fieldset {
+		margin: 40px;
 	}
 
 	span {
